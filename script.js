@@ -48,7 +48,7 @@ function buttononepressed() {
         button2.style.display = 'block';
         button3.style.display = 'block';
         button1.setAttribute('id', 'tell him that you are new to the dojo'); 
-        button2.setAttribute('id', 'Ask for a figh (kai)');
+        button2.setAttribute('id', 'Ask for a fight (kai)');
         button3.setAttribute('id', 'Ask about his true strength');
     }
     else if (button1.id === 'tell him that you are new to the dojo') {
