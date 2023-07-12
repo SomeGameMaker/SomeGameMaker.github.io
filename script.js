@@ -280,7 +280,7 @@ var options = {
     shape: 'dot',
     size: 20,
     font: {
-      color: 'white',
+      color: 'black',
       size: 15
     },
     borderWidth: 2,
