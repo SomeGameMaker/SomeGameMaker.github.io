@@ -1,10 +1,10 @@
-// get the gold button element
+
 const button1 = document.getElementById('one');
 const button2 = document.getElementById('two');
 const button3 = document.getElementById('three');
 const Return = document.getElementById('back');
 const Text = document.getElementById('text');
-// define initial gold value
+
 let gold = 0;
 
 
@@ -182,7 +182,7 @@ const dirtCount = document.getElementById('item3-count');
 const diamondCount = document.getElementById('item4-count');
 const item5Count = document.getElementById('item5-count');
 
-// Load the item counts from localStorage if they exist
+
 if (localStorage.getItem('pizzaCount')) {
 pizzaCount.innerText = localStorage.getItem('pizzaCount');
 }
@@ -217,7 +217,7 @@ const meleeBtn = document.querySelector(".melee");
 const rangedBtn = document.querySelector(".ranged");
 const magicBtn = document.querySelector(".magic");
 
- // Skill tree dataset
+
 var nodes = [
   
   {id: 1, label: 'Physical Power', level: 1, group: 'Physical'},
