@@ -210,3 +210,13 @@ ol {
   border-width: 10px 10px 0 10px;
   border-color: #fff transparent transparent transparent;
 }
+
+#skilltree {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  border: px;
+}
+
