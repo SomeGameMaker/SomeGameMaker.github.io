@@ -224,7 +224,8 @@ var nodes = [
   {id: 2, label: 'Strength', level: 2, group: 'Physical'},
   {id: 3, label: 'Punching', level: 2, group: 'Physical'},
   {id: 4, label: 'Martial Arts', level: 2, group: 'Physical'},
-
+  {id: 17, label: 'Overwhelming Force', level: 3, group: 'Physical'},
+  {id: 18, label: 'Air Punch', level: 3, group: 'Physical'},
   
   {id: 5, label: 'Ranged Skills', level: 1, group: 'Ranged'},
   {id: 6, label: 'Strength Projection', level: 2, group: 'Ranged'},
@@ -247,6 +248,11 @@ var edges = [
   {from: 1, to: 2},
   {from: 1, to: 3},
   {from: 1, to: 4},
+  {from: 2, to: 17},
+  {from: 3, to: 17},
+  {from: 3, to: 18},
+  {from: 4, to: 18},
+  {from: 17, to: 18},
   {from: 5, to: 6},
   {from: 6, to: 7},
   {from: 6, to: 8},
