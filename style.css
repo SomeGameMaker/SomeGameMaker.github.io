@@ -106,8 +106,9 @@ ol {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 3465px;
+  width: 365px;
   height: 400px;
-  background: linear-gradient(to right, #020588, #021488, #023588);
+  background: linear-gradient(to bottom right, white, gray);
 }
+
 
