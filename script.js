@@ -269,11 +269,13 @@ var options = {
   physics: {
     enabled: false
   },
+  
   nodes: {
     shape: 'dot',
     size: 20,
     font: {
-      size: 20
+      color: 'white',
+      size: 15
     },
     borderWidth: 2,
     shadow: true
@@ -300,13 +302,14 @@ var options = {
   },
   layout: {
     hierarchical: {
-      direction: 'UD',
+      direction: 'DU',
       sortMethod: 'directed'
     }
   },
   interaction: {
     hover: true,
-    keyboard: true
+    keyboard: true,
+    dragNodes: false
   },
   navigation: {
     enabled: true,
@@ -315,4 +318,5 @@ var options = {
 };
 
 var network = new vis.Network(container, data, options);
+
 
