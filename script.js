@@ -219,13 +219,13 @@ const magicBtn = document.querySelector(".magic");
 
  // Skill tree dataset
 var nodes = [
-  // Physical Power branch
+  
   {id: 1, label: 'Physical Power', level: 1, group: 'Physical'},
   {id: 2, label: 'Strength', level: 2, group: 'Physical'},
   {id: 3, label: 'Punching', level: 2, group: 'Physical'},
   {id: 4, label: 'Martial Arts', level: 2, group: 'Physical'},
 
-  // Ranged Skills branch
+  
   {id: 5, label: 'Ranged Skills', level: 1, group: 'Ranged'},
   {id: 6, label: 'Strength Projection', level: 2, group: 'Ranged'},
   {id: 7, label: 'Bow', level: 3, group: 'Ranged'},
@@ -233,7 +233,7 @@ var nodes = [
   {id: 9, label: 'Air Punch', level: 3, group: 'Ranged'},
   {id: 10, label: 'Arrows', level: 4, group: 'Ranged'},
 
-  // QI branch
+  
   {id: 11, label: 'QI', level: 1, group: 'Qi'},
   {id: 12, label: 'QI Manipulation', level: 2, group: 'Qi'},
   {id: 13, label: 'QI Condensation', level: 3, group: 'Qi'},
@@ -242,7 +242,7 @@ var nodes = [
   {id: 16, label: 'Rank Up', level: 4, group: 'Qi'},
 ];
 
-// Skill tree edges
+
 var edges = [
   {from: 1, to: 2},
   {from: 1, to: 3},
@@ -261,7 +261,7 @@ var edges = [
   {from: 15, to: 16},
 ];
 
-// Create a network visualization of the skill tree
+
 var container = document.getElementById('skilltree');
 var data = { nodes: nodes, edges: edges };
 var options = {
