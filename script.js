@@ -272,7 +272,7 @@ var options = {
   
   nodes: {
     shape: 'dot',
-    size: 50,
+    size: 20,
     font: {
       color: 'white',
       size: 15
