@@ -16,7 +16,7 @@ function buttononepressed() {
         button1.setAttribute('id', 'Talk to dojo master'); 
         button2.setAttribute('id', 'ask around');
         button3.setAttribute('id', 'Fight Dummy');
-        Text.innerText = "You hear the powerfull warriors              Training around You"
+        Text.innerText = "You hear the powerfull warriors Training around You"
     } else if (button1.id === 'Talk to dojo master') {
         button1.innerText = 'Say hello';
         button2.style.display = 'none';
@@ -225,7 +225,6 @@ var nodes = [
   {id: 3, label: 'Punching', level: 2, group: 'Physical'},
   {id: 4, label: 'Martial Arts', level: 2, group: 'Physical'},
   {id: 17, label: 'Overwhelming Force', level: 3, group: 'Physical'},
-  {id: 18, label: 'Air Punch', level: 4, group: 'Physical'},
   
   {id: 5, label: 'Ranged Skills', level: 1, group: 'Ranged'},
   {id: 6, label: 'Strength Projection', level: 2, group: 'Ranged'},
@@ -250,9 +249,6 @@ var edges = [
   {from: 1, to: 4},
   {from: 2, to: 17},
   {from: 3, to: 17},
-  {from: 3, to: 18},
-  {from: 4, to: 18},
-  {from: 17, to: 18},
   {from: 5, to: 6},
   {from: 6, to: 7},
   {from: 6, to: 8},
