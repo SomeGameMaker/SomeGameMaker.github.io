@@ -237,7 +237,7 @@ var nodes = [
   {id: 11, label: 'Enhance Mind', level: 1, group: 'Qi'},
   {id: 12, label: 'QI Manipulation', level: 2, group: 'Qi'},
   {id: 13, label: 'QI Condensation', level: 3, group: 'Qi'},
-  {id: 14, label: 'Ki Infusion', level: 3, group: 'Qi'},
+  {id: 14, label: 'QI Infusion', level: 3, group: 'Qi'},
   {id: 15, label: 'Mind Infusion', level: 3, group: 'Qi'},
   {id: 16, label: 'Rank Up', level: 4, group: 'Qi'},
 ];
