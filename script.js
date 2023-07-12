@@ -225,7 +225,7 @@ var nodes = [
   {id: 3, label: 'Punching', level: 2, group: 'Physical'},
   {id: 4, label: 'Martial Arts', level: 2, group: 'Physical'},
   {id: 17, label: 'Overwhelming Force', level: 3, group: 'Physical'},
-  {id: 18, label: 'Air Punch', level: 3, group: 'Physical'},
+  {id: 18, label: 'Air Punch', level: 4, group: 'Physical'},
   
   {id: 5, label: 'Ranged Skills', level: 1, group: 'Ranged'},
   {id: 6, label: 'Strength Projection', level: 2, group: 'Ranged'},
