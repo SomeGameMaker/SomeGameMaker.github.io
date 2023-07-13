@@ -94,7 +94,7 @@ Text.innerText = "After asking around you find some information about her. She i
         
         for (let i = 0; i < 2; i++) {
         const img = document.createElement('img');
-        img.src = 'Star/Star.png'; 
+        img.src = 'Stars/Star.png'; 
         img.alt = 'star'; 
 
         img.style.width = '15px';
@@ -124,7 +124,7 @@ if (button3.id === 'three') {
         
         for (let i = 0; i < 1; i++) {
         const img = document.createElement('img');
-        img.src = 'Star/Star.png'; 
+        img.src = 'Stars/Star.png'; 
         img.alt = 'star'; 
 
         img.style.width = '15px';
