@@ -76,6 +76,9 @@ if (button2.id === 'two') {
         button1.setAttribute('id', 'Sleep'); 
         button2.setAttribute('id', 'Light fire');
         button3.setAttribute('id', 'Craft');
+        button1.setAttribute('id', 'Sleep'); 
+        button2.setAttribute('id', 'Light fire');
+        button3.setAttribute('id', 'Craft');
       } else if (button2.id === 'ask around') {
         Text.innerText = "you feel the presure of ur peers on you"
         button1.innerText = 'kai';
